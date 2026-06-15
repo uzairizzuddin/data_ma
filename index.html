@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data & Digital Governance</title>
+<style>
+    body, html { 
+        margin: 0; 
+        padding: 0; 
+        height: 100%; 
+        width: 100%;
+        overflow: hidden; 
+        background-color: #6a1a1a; /* Matches your Gamuda red */
+    }
+    
+    .pbi-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden; 
+    }
+
+    .pbi-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* We are increasing the height and "tucking" the bottom 
+           further under the edge of the screen */
+        height: calc(100% + 56px); 
+        margin-bottom: -56px;
+        border: none;
+    }
+</style>
+</head>
+<body>
+
+    <div class="pbi-wrapper">
+        <iframe class="pbi-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiMTUwYzM0MGQtMzU3ZC00NDRmLWE4MjAtZWYyYTQxNjRjOTNiIiwidCI6ImQ5ZWZkMDdhLTZiYjgtNDM1ZS04OTYzLTNmNDgyYzdmMWQ4MyIsImMiOjEwfQ%3D%3D" allowFullScreen="true"></iframe>
+    </div>
+
+</body>
+</html>
